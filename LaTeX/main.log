@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  17 DEC 2017 00:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  6 JAN 2018 18:13
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -526,14 +526,20 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 58.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 58.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
- [1
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
+[1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
- (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 141.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 141.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
+
+(./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 91CC878CA6F538683115537DCD49AD8D;430.
  ) 
@@ -553,7 +559,7 @@ type1/public/lm/lmss8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
 c/lm/lmssbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lms
 so10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsso12.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on main.pdf (1 page, 158733 bytes).
+Output written on main.pdf (1 page, 159018 bytes).
 PDF statistics:
  71 PDF objects out of 1000 (max. 8388607)
  59 compressed objects within 1 object stream
