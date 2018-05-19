@@ -1,29 +1,8 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% "ModernCV" CV and Cover Letter
-% LaTeX Template
-% Version 1.1 (9/12/12)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Original author:
-% Xavier Danaux (xdanaux@gmail.com)
-%
-% License:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
-%
-% Important note:
-% This template requires the moderncv.cls and .sty files to be in the same 
-% directory as this .tex file. These files provide the resume style and themes 
-% used for structuring the document.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\documentclass[12pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
 
 \moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
 \moderncvcolor{green} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'gray' and 'black'
@@ -32,7 +11,7 @@
 
 \usepackage[scale=0.85]{geometry} % Reduce document margins
 %\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
-%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
 
 %----------------------------------------------------------------------------------------
 %	NAME AND CONTACT INFORMATION SECTION
@@ -42,14 +21,10 @@
 \familyname{Mooney} % Your last name
 
 % All information in this block is optional, comment out any lines you don't need
-%\title{}
-%\address{}{}
-\mobile{(585)363-1526}
+\mobile{(585) 363-1526}
 \email{m.mooney098@gmail.com}
-\homepage{www.github.com/maddiemooney}{github.com/maddiemooney} % The first argument is %the url for the clickable link, the second argument is the url displayed in the %template - this allows special characters to be displayed such as the tilde in this %example
-%\extrainfo{additional information}
-%\photo[70pt][0.4pt]{picture} % The first bracket is the picture height, the second is %the thickness of the frame around the picture (0pt for no frame)
-\quote{2nd year Computer Engineering student seeking coop for Fall of 2018}
+\homepage{www.github.com/maddiemooney}{github.com/maddiemooney} % The first argument is %the url for the clickable link, the second argument is the url displayed in the thing
+\quote{Computer Engineering student seeking coop for Summer of 2019}
 
 %----------------------------------------------------------------------------------------
 
@@ -63,19 +38,17 @@
 
 \section{Education}
 
-\cventry{2016--2021}{Rochester Institute of Technology}{}{}{}{BS in Computer Engineering\\
-3.34 GPA}  % Arguments not required can be left empty
+\cventry{2016--2021}{Rochester Institute of Technology}{}{}{}{
+Bachelors of Science in Computer Engineering\\
+3.39 GPA - Kate Gleason College of Engineering Deans List }  % Arguments not required can be left empty
 
 %----------------------------------------------------------------------------------------
 %	PROJECTS SECTION
 %----------------------------------------------------------------------------------------
 
 \section{Projects}
-\cventry{Feb 2018}{Vizualizer}{www.github.com/maddiemooney/vizualizer}{}{}{3D Audio visualizer. Detects frequencies in real time and updates to show frequency concentration.\\ 
-Written in Python using PyOpenGL and PyAudio.}
-
 \cventry{Jan 2018}{Morse Code Redundancy}{www.github.com/maddiemooney/mcr}{}{}{Transmits then receives morse code using lasers and photoresistors.\\
-Designed circuit, transmitting and receiving algorithm in Arduino C. }
+Designed circuit, transmitting and receiving algorithm in Arduino C. \\}
 
 \cventry{Feb 2017}{WriteBot}{www.github.com/maddiemooney/writebot}{}{}{Repurposing CD drives to create a mini CNC plotting machine. \\
 Rewrote the stepper motor library for Arduino, other functionality written in Arduino C and Python.}
@@ -87,27 +60,29 @@ Rewrote the stepper motor library for Arduino, other functionality written in Ar
 
 \section{Experience}
 
-\cventry{May-August 2017}{Machine Learning Research}{}{}{}{Created an online monitoring system that takes sounds produced by different machining processes and labels them according to a classifier created by a support vector machine algorithm\\
+\cventry{Aug 2017 -}{Teaching Assistant}{Rochester Institute of Technology}{}{}{Teaching assistant for Intro to Computer Engineering (CMPE 110), Digital System Design (CMPE 160)\\
+Set up lab exercises, performed equipment quality checks, graded lab work, held weekly mentoring meetings and office hours.\\
+Recipient of RIT CMPE Fall 2017 Teaching Assistant Award\\ }
+
+\cventry{May-August 2017}{Machine Learning Research}{Rochester Institute of Technology}{}{}{Created an online monitoring system that takes sounds produced by different machining processes and labels them according to a classifier created by a support vector machine algorithm\\
 Written in Python, using Scikit-learn, PyAudio, PyQt5, and PyQtGraph\\
 Presented research findings at RIT Undergraduate Research Symposium}
 
-\cventry{Aug 2017 -}{Teaching Assistant}{}{}{}{Teaching assistant for Intro to Computer Engineering (CMPE 110), Digital System Design (CMPE 160)\\
-Set up lab exercises, performed equipment quality checks, graded lab work, held weekly mentoring meetings and office hours.\\
-Recipient of RIT CMPE Fall 2017 Teaching Assistant Award }
 %----------------------------------------------------------------------------------------
 %	SKILLS SECTION
 %----------------------------------------------------------------------------------------
+
 \section{Skills}
-\cvitem{Languages}{Python, Java, C/Arduino C, VHDL, ARM Assembly}
-\cvitem{Markup}{HTML/CSS, \LaTeX}
-\cvitem{OS}{Linux, MacOS, Windows}
-\cvitem{Tools/Misc}{Microsoft Office, GIMP, PyQt, PyOpenGL, PyAudio, Git, JetBrains IDEs, Keil Uvision, ModelSim, Altera Quartus, PSPICE}
+\cvitem{Languages}{VHDL, Verilog, ARM Assembly, C, Arduino C, Python, Java}
+\cvitem{OS}{GNU/Linux, MacOS, Windows}
+\cvitem{Tools/Misc}{Altera Quartus, Xilinx, Keil Uvision, ModelSim/ISim, PSPICE, \LaTeX, Git}
+
 %----------------------------------------------------------------------------------------
 %	ACTIVITIES SECTION
 %----------------------------------------------------------------------------------------
+
 \section{Activities}
 \cventry{Aug 2016 -}{Computer Science House}{}{}{}{RIT Special Interest House\\
 Editor of weekly newsletter, Segfault}
-\cventry{Aug 2013 -}{Women in Computing Hackathon}{}{}{}{24 Hour Hackathon held at RIT }
 
 \end{document}
