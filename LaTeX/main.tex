@@ -2,14 +2,13 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\documentclass[10pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
 
-\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvstyle{classic} % CV theme - options include: classic'
 \moderncvcolor{green} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'gray' and 'black'
 
 \usepackage[scale=0.85]{geometry} % Reduce document margins
 %\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
-%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
 
 %----------------------------------------------------------------------------------------
 %	NAME AND CONTACT INFORMATION SECTION
@@ -23,10 +22,9 @@
 %\address{}{}
 \mobile{(585) 363-1526}
 \email{m.mooney098@gmail.com}
-\homepage{http://www.maddiemooney.me}{maddiemooney.me} % The first argument is %the url for the clickable link, the second argument is the url 
-%\extrainfo{additional information}
-%\photo[70pt][0.4pt]{picture} % The first bracket is the picture height, the second is %the thickness of the frame around the picture (0pt for no frame)
-\quote{3rd year Computer Engineering student seeking co-op for Summer and Fall of 2019}
+\homepage{https://www.maddiemooney.github.io}{maddiemooney.github.io}
+
+\quote{New Computer Engineering Graduate seeking Back-End Software Engineering position starting May 2021.}
 
 %----------------------------------------------------------------------------------------
 
@@ -41,7 +39,8 @@
 \section{Education}
 
 \cventry{2016 - 2021}{Rochester Institute of Technology}{}{}{}{Bachelors of Science in Computer Engineering\\
-3.4 GPA - Kate Gleason College of Engineering Dean's List}  % Arguments not required can be left empty
+Minor in Computer Science\\
+3.35 GPA - Kate Gleason College of Engineering Dean's List}  % Arguments not required can be left empty
 
 
 %----------------------------------------------------------------------------------------
@@ -49,24 +48,34 @@
 %----------------------------------------------------------------------------------------
 
 \section{Experience}
+\cventry{Summer 2020}{Vulnerability Research Intern}{Raytheon CODEX}{}{}{Remote Intern on the Cybersecurity Tools and Services team.\\ Optimized Linux build pipeline script execution time by rewriting files from Python to C. }
+
+
+\smallskip
+
+\cventry{Summer 2019 Fall 2019}{Software Engineering Co-op}{Moog Inc}{}{}{Intern on the IT Solutions team.\\
+Designed IoT architecture to gather data from edge devices and alert users using Microsoft Azure resources.\\
+Developed test suite for enterprise Java web apps to integrate with Microsoft Azure CI/CD development. }
+
+\smallskip
 
 \cventry{Fall 2018}{Software Engineering Co-op}{Plexus Corp}{}{}{Intern in the Software Group.\\
-Implemented integration test structure that utilized DDS protocol to communicate between software items. Validated medical device software as part of FDA approval process.}
+Implemented integration test structure that utilized DDS protocol to communicate between software items.\\ Validated medical device software as part of FDA approval process.}
 
 \smallskip
 
 \cventry{Summer 2018}{Firmware Engineering Co-op}{AMD}{}{}{Intern on the Diagnostics and Tools team.\\
-Automated execution of system level tests and reported test results through web interface. Designed and implemented interface for reserving and offlining test systems.}
+Automated execution of system level tests and reported test results through web interface.\\ Designed and implemented interface for reserving and offlining test systems.}
 
 \smallskip
 
-\cventry{Fall 2017 (Current)}{Teaching Assistant}{Rochester Institute of Technology}{}{}{Head TA for Intro to Computer Engineering, Digital System Design I.\\
-Prepared lab exercises, performed equipment quality checks, graded lab work and reports, held weekly mentoring meetings and office hours.\\
+\cventry{Fall 2017 Spring 2019}{Teaching Assistant}{Rochester Institute of Technology}{}{}{Head TA for Intro to Computer Engineering, Digital System Design I.\\
+Prepared lab exercises, graded lab work and reports, held weekly mentoring meetings and office hours.\\
 Recipient of RIT CMPE Fall 2017 Teaching Assistant Award.}
 
 \smallskip
 
-\cventry{Summer 2017}{Machine Learning Research}{Rochester Institute of Technology}{}{}{Created an online monitoring system that takes sounds produced by different machining processes and labels them according to a classifier created by a support vector machine algorithm.\\
+\cventry{Summer 2017}{Machine Learning Research Assistant}{Rochester Institute of Technology}{}{}{Created an online monitoring system that takes sounds produced by different machining processes and labels them according to a classifier created by a support vector machine algorithm.\\
 Presented research findings at RIT Undergraduate Research Symposium.}
 
 
@@ -75,10 +84,15 @@ Presented research findings at RIT Undergraduate Research Symposium.}
 %----------------------------------------------------------------------------------------
 
 \section{Projects}
-\cventry{2018}{Morse Code Redundancy}{github.com/maddiemooney/mcr}{}{}{Transmits and receives Morse Code using lasers and photoresistors.\\
-    Designed circuit in PSpice, implemented transmitting and receiving algorithm in Arduino C.}
+
+\cventry{2020}{Hand Washing Monitoring Solution} {}{}{}{Ongoing multidisciplinary project following an engineering design process in order to design a fully tested and documented prototype for potential market.\\
+Reminds, monitors, and coaches hospital workers' hand washing process in order to reduce healthcare acquired infections.}
+
+\cventry{2020}{Quarantine Food Storage} {github.com/maddiemooney/QuarantineFoodStorage}{}{}{Monitors grocery decontamination process, and generates alerts for out of stock items.\\
+Back-end written in C\#, Android app written in Kotlin.}
+    
 \smallskip
-\cventry{2017}{WriteBot}{github.com/maddiemooney/writebot}{}{}{Repurposing CD drives to create a mini CNC plotting machine. \\
+\cventry{2018}{WriteBot}{github.com/maddiemooney/writebot}{}{}{Repurposing CD drives to create a mini CNC plotting machine. \\
 Rewrote the stepper motor library for Arduino, other functionality written in Arduino C and Python.}
 
 
@@ -88,7 +102,7 @@ Rewrote the stepper motor library for Arduino, other functionality written in Ar
 
 \section{Skills}
 
-\cvitem{Languages}{C/C\#/Arduino C, ARM Assembly, VHDL, Verilog,  Python, Java, HTML/CSS, PHP, JavaScript/JQuery, SQL, \LaTeX.}
-\cvitem{Tools/Misc}{Git, Altera Quartus, Xilinx, Keil Uvision, ModelSim/ISim, PSpice.}
+\cvitem{Languages}{C\#, Java, C, ARM/MIPS Assembly, Python, SQL.}
+\cvitem{Tools/Misc}{Git, Microsoft Azure Cloud, Agile Development.}
 
 \end{document}

@@ -1,2 +1,2 @@
 # resume
-My résumé updated 8/7/2020.
+My résumé updated 10/12/2020.
